@@ -1,0 +1,16 @@
+name: Trigger Pipe Manager
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-pipe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Pipe Manager Workflow
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: mnoskoski/pipe-manager
+          event-type: trigger-pipeline
