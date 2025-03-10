@@ -3,7 +3,7 @@ name: Trigger Pipe Manager
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   trigger-pipe:
