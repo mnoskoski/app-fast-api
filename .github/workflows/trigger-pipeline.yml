@@ -14,4 +14,4 @@ jobs:
         with:
           repository: mnoskoski/pipe-manager
           token: ${{ secrets.github  }}
-          event-type: trigger-pipeline
+          event-type: trigger-ci
