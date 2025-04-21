@@ -1,3 +1,5 @@
 FastAPI
 uvicorn
 docker-compose
+pytest
+httpx
